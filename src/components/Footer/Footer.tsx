@@ -22,14 +22,8 @@ const Footer = () => {
                      <a href='#' aria-label='Facebook'>
                         📘
                      </a>
-                     <a href='#' aria-label='Twitter'>
-                        🐦
-                     </a>
                      <a href='#' aria-label='Instagram'>
                         📷
-                     </a>
-                     <a href='#' aria-label='LinkedIn'>
-                        💼
                      </a>
                   </div>
                </div>
@@ -59,12 +53,6 @@ const Footer = () => {
                      <li>
                         <a href='#contact'>{t.footer.support.contactUs}</a>
                      </li>
-                     <li>
-                        <a href='#docs'>{t.footer.support.documentation}</a>
-                     </li>
-                     <li>
-                        <a href='#api'>{t.footer.support.api}</a>
-                     </li>
                   </ul>
                </div>
                <div className='footer-section'>
@@ -72,15 +60,6 @@ const Footer = () => {
                   <ul>
                      <li>
                         <a href='#about'>{t.footer.company.aboutUs}</a>
-                     </li>
-                     <li>
-                        <a href='#careers'>{t.footer.company.careers}</a>
-                     </li>
-                     <li>
-                        <a href='#press'>{t.footer.company.press}</a>
-                     </li>
-                     <li>
-                        <a href='#partners'>{t.footer.company.partners}</a>
                      </li>
                   </ul>
                </div>
@@ -98,8 +77,6 @@ const Footer = () => {
                   <p>{t.footer.legal.copyright}</p>
                   <div className='legal-links'>
                      <a href='#privacy'>{t.footer.legal.privacy}</a>
-                     <a href='#terms'>{t.footer.legal.terms}</a>
-                     <a href='#cookies'>{t.footer.legal.cookies}</a>
                   </div>
                </div>
             </div>

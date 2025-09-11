@@ -109,15 +109,10 @@ export const en = {
          title: 'Support',
          helpCenter: 'Help Center',
          contactUs: 'Contact Us',
-         documentation: 'Documentation',
-         api: 'API',
       },
       company: {
          title: 'Company',
          aboutUs: 'About Us',
-         careers: 'Careers',
-         press: 'Press',
-         partners: 'Partners',
       },
       contact: {
          title: 'Contact Info',
@@ -125,8 +120,6 @@ export const en = {
       legal: {
          copyright: '© 2025 PlexusMenu. All rights reserved.',
          privacy: 'Privacy Policy',
-         terms: 'Terms of Service',
-         cookies: 'Cookie Policy',
       },
    },
 };

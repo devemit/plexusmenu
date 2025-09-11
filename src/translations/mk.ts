@@ -111,15 +111,10 @@ export const mk = {
          title: 'Поддршка',
          helpCenter: 'Центар за Помош',
          contactUs: 'Контактирајте Не',
-         documentation: 'Документација',
-         api: 'API',
       },
       company: {
          title: 'Компанија',
          aboutUs: 'За Нас',
-         careers: 'Кариери',
-         press: 'Печат',
-         partners: 'Партнери',
       },
       contact: {
          title: 'Контакт Информации',
@@ -127,8 +122,6 @@ export const mk = {
       legal: {
          copyright: '© 2025 PlexusMenu. Сите права се задржани.',
          privacy: 'Политика за Приватност',
-         terms: 'Услови за Користење',
-         cookies: 'Политика за Колачиња',
       },
    },
 };

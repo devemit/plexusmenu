@@ -110,15 +110,10 @@ export const sr = {
          title: 'Подршка',
          helpCenter: 'Центар за Помоћ',
          contactUs: 'Контактирајте Нас',
-         documentation: 'Документација',
-         api: 'API',
       },
       company: {
          title: 'Компанија',
          aboutUs: 'О Нама',
-         careers: 'Каријере',
-         press: 'Штампа',
-         partners: 'Партнери',
       },
       contact: {
          title: 'Контакт Информације',
@@ -126,8 +121,6 @@ export const sr = {
       legal: {
          copyright: '© 2025 PlexusMenu. Сва права задржана.',
          privacy: 'Политика Приватности',
-         terms: 'Услови Коришћења',
-         cookies: 'Политика Колачића',
       },
    },
 };
