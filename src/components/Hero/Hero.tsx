@@ -11,13 +11,9 @@ const Hero = () => {
                <div className='hero-text'>
                   <h1>{t.hero.title}</h1>
                   <p>{t.hero.subtitle}</p>
-                  <div className='hero-buttons'>
-                     <button className='primary-button'>{t.hero.startTrial}</button>
-                     <button className='secondary-button'>{t.hero.viewDemo}</button>
-                  </div>
                   <div className='hero-stats'>
                      <div className='stat'>
-                        <span className='stat-number'>500+</span>
+                        <span className='stat-number'>10+</span>
                         <span className='stat-label'>{t.hero.stats.restaurants}</span>
                      </div>
                      <div className='stat'>

@@ -19,11 +19,28 @@ const Footer = () => {
                   <h3>PlexusMenu</h3>
                   <p>{t.footer.description}</p>
                   <div className='social-links'>
-                     <a href='#' aria-label='Facebook'>
-                        📘
-                     </a>
-                     <a href='#' aria-label='Instagram'>
-                        📷
+                     <a
+                        href='https://instagram.com/plexusmenu'
+                        aria-label='Instagram'
+                        target='_blank'
+                        rel='noreferrer'
+                     >
+                        <svg
+                           width='20'
+                           height='20'
+                           viewBox='0 0 24 24'
+                           fill='none'
+                           aria-hidden='true'
+                           xmlns='http://www.w3.org/2000/svg'
+                        >
+                           <path
+                              d='M7 2H17C20.3137 2 23 4.68629 23 8V16C23 19.3137 20.3137 22 17 22H7C3.68629 22 1 19.3137 1 16V8C1 4.68629 3.68629 2 7 2Z'
+                              stroke='#E1306C'
+                              strokeWidth='2'
+                           />
+                           <circle cx='12' cy='12' r='3.5' stroke='#E1306C' strokeWidth='2' />
+                           <circle cx='17.5' cy='6.5' r='1.5' fill='#E1306C' />
+                        </svg>
                      </a>
                   </div>
                </div>
@@ -40,44 +57,23 @@ const Footer = () => {
                         <a href='#showcase'>{t.footer.product.examples}</a>
                      </li>
                      <li>
-                        <a href='#demo'>{t.footer.product.demo}</a>
+                        <a href='#testimonials'>{t.footer.product.reviews}</a>
                      </li>
                   </ul>
                </div>
-               <div className='footer-section'>
-                  <h4>{t.footer.support.title}</h4>
-                  <ul>
-                     <li>
-                        <a href='#help'>{t.footer.support.helpCenter}</a>
-                     </li>
-                     <li>
-                        <a href='#contact'>{t.footer.support.contactUs}</a>
-                     </li>
-                  </ul>
-               </div>
-               <div className='footer-section'>
-                  <h4>{t.footer.company.title}</h4>
-                  <ul>
-                     <li>
-                        <a href='#about'>{t.footer.company.aboutUs}</a>
-                     </li>
-                  </ul>
-               </div>
+
                <div className='footer-section'>
                   <h4>{t.footer.contact.title}</h4>
                   <div className='contact-info'>
-                     <p>📧 hello@plexusmenu.com</p>
-                     <p>📞 1-800-PLEXUS</p>
-                     <p>📍 123 Digital Ave, Tech City</p>
+                     <p>📧 mitkoiliev505@gmail.com</p>
+                     <p>📞 +389 77 954273</p>
+                     <p>📍 Macedonia</p>
                   </div>
                </div>
             </div>
             <div className='footer-bottom'>
                <div className='footer-legal'>
                   <p>{t.footer.legal.copyright}</p>
-                  <div className='legal-links'>
-                     <a href='#privacy'>{t.footer.legal.privacy}</a>
-                  </div>
                </div>
             </div>
          </div>

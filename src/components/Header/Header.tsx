@@ -27,6 +27,9 @@ const Header = () => {
                   <a href='#features' onClick={() => setIsMenuOpen(false)}>
                      {t.header.features}
                   </a>
+                  <a href='#pricing' onClick={() => setIsMenuOpen(false)}>
+                     {t.footer.product.pricing}
+                  </a>
                   <a href='#showcase' onClick={() => setIsMenuOpen(false)}>
                      {t.header.examples}
                   </a>

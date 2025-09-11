@@ -9,7 +9,7 @@ export const en = {
 
    // Hero Section
    hero: {
-      title: 'Transform Your Restaurant with Smart QR Menus',
+      title: 'Transform Your Restaurant, Café, or Hotel with Smart QR Menus',
       subtitle:
          'Create stunning, fully customizable digital menus that work perfectly on any device. Boost your business with contactless ordering and real-time updates.',
       startTrial: 'Start Free Trial',
@@ -94,6 +94,23 @@ export const en = {
       },
    },
 
+   // Pricing Section
+   pricing: {
+      title: 'Simple, Transparent Pricing',
+      subtitle: 'One-time setup for your digital menu',
+      plan: {
+         name: 'Standard Package',
+         price: '€300',
+         period: 'one-time',
+         features: [
+            '24/7 available support',
+            'Easy price changing',
+            'Multi-language menu support',
+            'Custom branding',
+         ],
+      },
+   },
+
    // Footer Section
    footer: {
       description:
@@ -103,7 +120,7 @@ export const en = {
          features: 'Features',
          pricing: 'Pricing',
          examples: 'Examples',
-         demo: 'Demo',
+         reviews: 'Reviews',
       },
       support: {
          title: 'Support',
@@ -119,7 +136,6 @@ export const en = {
       },
       legal: {
          copyright: '© 2025 PlexusMenu. All rights reserved.',
-         privacy: 'Privacy Policy',
       },
    },
 };
