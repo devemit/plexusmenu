@@ -1,0 +1,150 @@
+/* Footer styles */
+.footer {
+  background: #1f2937;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section p {
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-section ul li a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #6366f1;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+  color: #9ca3af;
+}
+
+.footer-bottom {
+  border-top: 1px solid #374151;
+  padding-top: 2rem;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.legal-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.legal-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+  color: #6366f1;
+}
+
+.back-to-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto 0;
+  background: #6366f1;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  transition: all 0.3s ease;
+}
+
+.back-to-top-btn:hover {
+  background: #5856eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-legal {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .legal-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-to-top-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+    margin: 1.5rem auto 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

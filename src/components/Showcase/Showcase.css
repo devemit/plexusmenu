@@ -1,0 +1,110 @@
+/* Showcase section */
+.showcase {
+  padding: 6rem 0;
+  background: white;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.showcase-item {
+  text-align: center;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.showcase-image {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-example {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 280px;
+  width: 100%;
+}
+
+.menu-example.cafe {
+  border-top: 4px solid #f59e0b;
+}
+
+.menu-example.restaurant {
+  border-top: 4px solid #ef4444;
+}
+
+.menu-example.fastfood {
+  border-top: 4px solid #10b981;
+}
+
+.menu-example h4 {
+  color: #1f2937;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.menu-category {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6366f1;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.menu-items {
+  text-align: left;
+}
+
+.menu-items .item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f3f4f6;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.menu-items .item:last-child {
+  border-bottom: none;
+}
+
+.showcase-info h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.showcase-info p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* Responsive design */
+@media (min-width: 1400px) {
+  .showcase-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Loading animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
