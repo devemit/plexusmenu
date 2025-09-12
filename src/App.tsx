@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Hero, Features, Showcase, Pricing, Testimonials, Footer } from './components';
+import { Header, Hero, Features, Showcase, Pricing, Footer } from './components';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
             <Features />
             <Showcase />
             <Pricing />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Footer />
          </div>
       </LanguageProvider>

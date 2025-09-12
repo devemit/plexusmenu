@@ -15,7 +15,6 @@ export const en = {
       startTrial: 'Start Free Trial',
       viewDemo: 'View Demo',
       stats: {
-         restaurants: 'Happy Restaurants',
          uptime: 'Uptime',
          support: 'Support',
       },
@@ -100,13 +99,14 @@ export const en = {
       subtitle: 'One-time setup for your digital menu',
       plan: {
          name: 'Standard Package',
-         price: '€300',
+         price: '€449',
          period: 'one-time',
          features: [
             '24/7 available support',
             'Easy price changing',
             'Multi-language menu support',
             'Custom branding',
+            '50 printed qr menus',
          ],
       },
    },

@@ -13,10 +13,6 @@ const Hero = () => {
                   <p>{t.hero.subtitle}</p>
                   <div className='hero-stats'>
                      <div className='stat'>
-                        <span className='stat-number'>10+</span>
-                        <span className='stat-label'>{t.hero.stats.restaurants}</span>
-                     </div>
-                     <div className='stat'>
                         <span className='stat-number'>99.9%</span>
                         <span className='stat-label'>{t.hero.stats.uptime}</span>
                      </div>
