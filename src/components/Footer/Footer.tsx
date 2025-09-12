@@ -56,9 +56,6 @@ const Footer = () => {
                      <li>
                         <a href='#showcase'>{t.footer.product.examples}</a>
                      </li>
-                     <li>
-                        <a href='#testimonials'>{t.footer.product.reviews}</a>
-                     </li>
                   </ul>
                </div>
 

@@ -33,9 +33,6 @@ const Header = () => {
                   <a href='#showcase' onClick={() => setIsMenuOpen(false)}>
                      {t.header.examples}
                   </a>
-                  <a href='#testimonials' onClick={() => setIsMenuOpen(false)}>
-                     {t.header.reviews}
-                  </a>
                   <a href='#contact' onClick={() => setIsMenuOpen(false)}>
                      {t.header.contact}
                   </a>
