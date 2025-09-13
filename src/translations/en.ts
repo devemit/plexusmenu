@@ -106,7 +106,7 @@ export const en = {
             'Easy price changing',
             'Multi-language menu support',
             'Custom branding',
-            '50 printed qr menus',
+            'Free printed qr menus',
          ],
       },
    },
