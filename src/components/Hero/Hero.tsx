@@ -11,6 +11,15 @@ const Hero = () => {
                <div className='hero-text'>
                   <h1>{t.hero.title}</h1>
                   <p>{t.hero.subtitle}</p>
+                  <div className='hero-buttons'>
+                     <a
+                        href='https://reformbeachbar.vercel.app/'
+                        target='_blank'
+                        className='primary-button'
+                     >
+                        {t.hero.viewDemo}
+                     </a>
+                  </div>
                   <div className='hero-stats'>
                      <div className='stat'>
                         <span className='stat-number'>99.9%</span>
@@ -22,6 +31,7 @@ const Hero = () => {
                      </div>
                   </div>
                </div>
+
                <div className='hero-image'>
                   <div className='phone-mockup'>
                      <div className='phone-screen'>

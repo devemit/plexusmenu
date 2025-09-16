@@ -56,6 +56,11 @@ const Footer = () => {
                      <li>
                         <a href='#showcase'>{t.footer.product.examples}</a>
                      </li>
+                     <li>
+                        <a target='_blank' href='https://reformbeachbar.vercel.app/'>
+                           {t.footer.product.demo}
+                        </a>
+                     </li>
                   </ul>
                </div>
 

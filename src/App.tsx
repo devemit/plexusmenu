@@ -11,7 +11,6 @@ function App() {
             <Features />
             <Showcase />
             <Pricing />
-            {/* <Testimonials /> */}
             <Footer />
          </div>
       </LanguageProvider>

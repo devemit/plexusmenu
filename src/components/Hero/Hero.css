@@ -26,6 +26,34 @@
    opacity: 0.9;
 }
 
+.hero-buttons {
+   display: flex;
+   gap: 1rem;
+   margin-bottom: 2rem;
+}
+
+.primary-button {
+   display: inline-block;
+   background: #fbbf24;
+   color: #1f2937;
+   padding: 1rem 2rem;
+   border-radius: 8px;
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 1.1rem;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   transition: all 0.3s ease;
+   border: none;
+   cursor: pointer;
+}
+
+.primary-button:hover {
+   background: #f59e0b;
+   transform: translateY(-2px);
+   box-shadow: 0 8px 25px rgba(251, 191, 36, 0.3);
+}
+
 .hero-stats {
    display: flex;
    gap: 3rem;

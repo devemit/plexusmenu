@@ -36,6 +36,13 @@ const Header = () => {
                   <a href='#contact' onClick={() => setIsMenuOpen(false)}>
                      {t.header.contact}
                   </a>
+                  <a
+                     href='https://reformbeachbar.vercel.app/'
+                     target='_blank'
+                     onClick={() => setIsMenuOpen(false)}
+                  >
+                     {t.header.demo}
+                  </a>
                </nav>
                <div className='header-actions'>
                   <LanguageSelector />

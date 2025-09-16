@@ -3,7 +3,7 @@ export const en = {
    header: {
       features: 'Features',
       examples: 'Examples',
-      reviews: 'Reviews',
+      demo: 'Demo',
       contact: 'Contact',
    },
 
@@ -13,7 +13,7 @@ export const en = {
       subtitle:
          'Create stunning, fully customizable digital menus that work perfectly on any device. Boost your business with contactless ordering and real-time updates.',
       startTrial: 'Start Free Trial',
-      viewDemo: 'View Demo',
+      viewDemo: 'Try It Live!',
       stats: {
          uptime: 'Uptime',
          support: 'Support',
@@ -120,7 +120,7 @@ export const en = {
          features: 'Features',
          pricing: 'Pricing',
          examples: 'Examples',
-         reviews: 'Reviews',
+         demo: 'Demo',
       },
       support: {
          title: 'Support',
