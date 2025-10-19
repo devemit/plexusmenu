@@ -99,7 +99,7 @@ export const en = {
       subtitle: 'One-time setup for your digital menu',
       plan: {
          name: 'Standard Package',
-         price: '€499',
+         price: '€349',
          period: 'one-time',
          features: [
             '24/7 available support',
